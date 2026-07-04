@@ -13,6 +13,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    position: sticky;
+    z-index: 999;
     background: linear-gradient(#8E2DE2, #4A00E0);
 }
 
@@ -42,5 +44,86 @@ body{
 
 
 
+
+
+/* Here is my hero section below */
+.hero{
+    display: flex;
+    height: 92vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    flex: 2;
+    padding: 0 10%;
+}
+.info h1{
+    font-size: 3rem;
+    color: #8E2DE2;
+}
+.info p{
+    color: #888888;
+    margin-top: 10px;
+    max-width: 650px;
+}
+.btn{
+    margin-top: 60px;
+}
+.btn button{
+    padding: 9px 17px;
+    background: linear-gradient(130deg, #8E2DE2, #4A00E0) ;
+    color: white;
+    font-size: 18px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px #4b00e063;
+}
+
+
+.image{
+    width: 80%;
+    padding-right: 10%;
+    flex: 1;
+}
+.image img{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #4A00E0;
+    box-shadow: 5px 5px 10px #0000002c;
+}
+
+
+
+
+
+/* from here about me section is started */
+.about-me{
+    text-align: center;
+    padding: 150px 10%;
+    background: white;
+}
+
+.aboutMe-info{
+    background: linear-gradient( #8E2DE2, #4A00E0);
+    margin-top: 50px;
+    padding: 20px 50px;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+.aboutMe-info button{
+    margin-top: 30px;
+    padding: 9px 17px;
+    background: transparent;
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #4A00E0;
+}
 
 
