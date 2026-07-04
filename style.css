@@ -127,3 +127,27 @@ body{
 }
 
 
+
+
+
+
+/* from here Skills section is started */
+.skillsSection{
+    padding: 50px 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.skillBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.skillBox .skills{
+    background: #e3e3e3;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: 1px solid #4A00E0;
+}
+
