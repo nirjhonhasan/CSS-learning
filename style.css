@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f4f1f5;
+}
+
+/* Here is my navigation  */
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background: linear-gradient(#8E2DE2, #4A00E0);
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 150px;
+    color: yellow;
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 9px;
+    color: white;
+}
+
+
+
+
+
